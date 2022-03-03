@@ -1,0 +1,552 @@
+@charset "utf-8";
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 30px;
+  font-family: "Raleway", sans-serif;
+}
+
+/* HEADER */
+
+.navmenu {
+  display: flex;
+  justify-content: flex-end;
+  margin-top: -125px;
+  margin-right: -30px;
+}
+
+.navmenu #heb {
+  width: 200px;
+  padding: 40px;
+  text-decoration: none;
+}
+
+.navmenu #act {
+  width: 155px;
+  padding: 40px;
+  text-decoration: none;
+}
+
+.navmenu :hover {
+  border-style: solid;
+  border-color: #0065fc;
+  border-width: 3px;
+  border-bottom: none;
+  border-left: none;
+  border-right: none;
+  color: #0065fc;
+}
+
+/* HERO */
+
+#hero {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  margin-top: 30px;
+}
+
+#hero h4 {
+  font-weight: lighter;
+}
+
+/* Bar de recherche */
+
+.container {
+  display: flex;
+  margin-top: 10px;
+}
+
+.search-box {
+  width: 4em;
+  position: absolute;
+  border: none;
+}
+
+.search {
+  position: absolute;
+  width: 300px;
+  padding: 20%;
+  height: 47px;
+  outline: none;
+  border-style: solid;
+  border-width: 1px;
+  border-left-width: 50px;
+  border-top-left-radius: 15px;
+  border-bottom-left-radius: 15px;
+  border-color: #f2f2f2;
+  font-family: "Roboto", sans-serif;
+  font-weight: bold;
+  font-size: 1.3rem;
+}
+
+::placeholder {
+  color: black;
+}
+
+.location-logo {
+  position: absolute;
+  top: 13px;
+  border: none;
+  left: 13px;
+  font-size: 18px;
+}
+
+.search-btn {
+  position: relative;
+  width: 48px;
+  height: 47px;
+  border-radius: 15px 15px 15px 15px;
+  cursor: pointer;
+  font-size: 16px;
+  color: white;
+  background-color: #0065fc;
+  border-style: solid;
+  border: none;
+  left: 280px;
+  bottom: 0px;
+}
+
+.Rechercher {
+  position: relative;
+  border-style: solid;
+  color: white;
+  border-color: #0065fc;
+  background-color: #0065fc;
+  font-family: "Roboto", sans-serif;
+  left: 300px;
+  font-size: 1rem;
+  height: 47px;
+  border-top-right-radius: 15px;
+  border-bottom-right-radius: 15px;
+  cursor: pointer;
+}
+
+/* FILTRES */
+
+.btnfiltre {
+  margin-top: -35px;
+  margin-left: 60px;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  gap: 30px;
+}
+.filtres p {
+  font-weight: bold;
+  margin-top: 70px;
+}
+
+.btnfiltre :hover {
+  transform: scale(1.1);
+}
+
+/* FILTRES ECONOMIQUE */
+
+#eco {
+  text-decoration: none;
+  border-radius: 30px;
+  border-style: solid;
+  border-color: #f2f2f2;
+  font-weight: bold;
+  padding: 10px;
+  padding-left: 45px;
+  border-left: none;
+  color: black;
+}
+#Logomoney {
+  display: flex;
+  border-style: solid;
+  border-color: #deebff;
+  border-radius: 30px;
+  color: #0065fc;
+  background-color: #deebff;
+  border-width: 12px;
+  margin-top: -30px;
+  width: 40px;
+  text-decoration: none;
+}
+
+/* FILTRES FAMILIAL */
+
+#fami {
+  text-decoration: none;
+  border-radius: 30px;
+  border-style: solid;
+  border-color: #f2f2f2;
+  font-weight: bold;
+  padding: 10px;
+  padding-left: 45px;
+  border-left: none;
+  color: black;
+}
+#logoman {
+  text-decoration: none;
+  display: flex;
+  border-style: solid;
+  border-color: #deebff;
+  border-radius: 30px;
+  color: #0065fc;
+  background-color: #deebff;
+  border-width: 12px;
+  margin-top: -30px;
+  width: 40px;
+}
+
+/* FILTRES ROMANTIQUE */
+
+#rom {
+  text-decoration: none;
+  border-radius: 30px;
+  border-style: solid;
+  border-color: #f2f2f2;
+  font-weight: bold;
+  padding: 10px;
+  padding-left: 45px;
+  border-left: none;
+  color: black;
+}
+#logoheart {
+  text-decoration: none;
+  display: flex;
+  border-style: solid;
+  border-color: #deebff;
+  border-radius: 30px;
+  color: #0065fc;
+  background-color: #deebff;
+  border-width: 12px;
+  margin-top: -30px;
+  width: 40px;
+}
+
+/* FILTRES ANIMAUX */
+
+#anim {
+  text-decoration: none;
+  border-radius: 30px;
+  border-style: solid;
+  border-color: #f2f2f2;
+  font-weight: bold;
+  padding: 10px;
+  padding-left: 45px;
+  border-left: NONE;
+  color: black;
+}
+#logodog {
+  text-decoration: none;
+  display: flex;
+  border-style: solid;
+  border-color: #deebff;
+  border-radius: 30px;
+  color: #0065fc;
+  background-color: #deebff;
+  border-width: 12px;
+  margin-top: -30px;
+  width: 40px;
+}
+
+/* CONTENU */
+#Titrecarte {
+  font-weight: bold;
+  font-size: 1.3rem;
+  position: relative;
+  top: 160px;
+  left: 30px;
+}
+#Main {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  max-width: 600px;
+  background-color: #efefef;
+  padding-bottom: 50px;
+  padding-top: 50px;
+  padding-left: 0px;
+  padding-right: 0px;
+  margin-top: 100px;
+  justify-content: space-evenly;
+  border-radius: 15px;
+}
+
+.cardcannebiere {
+  margin-top: 30px;
+  margin-left: 0px;
+  border-radius: 15px;
+  border-style: solid;
+  max-width: 158px;
+  height: 130px;
+  border-color: #ffffff;
+  border-width: 4px;
+  border-bottom-width: 110px;
+}
+a:link {
+  text-decoration: none;
+}
+.card-image img {
+  width: 140px;
+  height: 70px;
+  border-radius: 10px;
+  border-bottom-left-radius: 0px;
+  border-bottom-right-radius: 0px;
+}
+
+/* Card cannebiere */
+.card-name1 {
+  margin-top: -10px;
+  margin-left: 10px;
+  font-size: 10px;
+  color: black;
+}
+.prix1 {
+  margin-left: 10px;
+  margin-top: -5px;
+  font-size: 10px;
+  color: black;
+}
+.prix1 h1 {
+  margin-left: 75px;
+  color: black;
+  margin-top: -22px;
+  font-size: 10px;
+}
+/* Card hotel du port */
+.cardhotelduport {
+  margin-top: 30px;
+  margin-left: 30px;
+  border-radius: 15px;
+  border-style: solid;
+  max-width: 158px;
+  height: 130px;
+  border-color: #ffffff;
+  border-width: 4px;
+  border-bottom-width: 110px;
+}
+
+.card-name2 {
+  margin-top: -10px;
+  margin-left: 10px;
+  font-size: 10px;
+  color: black;
+}
+.prix2 {
+  margin-left: 10px;
+  margin-top: -5px;
+  font-size: 10px;
+  color: black;
+}
+.prix2 h1 {
+  margin-left: 75px;
+  color: black;
+  margin-top: -22px;
+  font-size: 10px;
+}
+
+/* Card hotel les mouettes */
+
+.cardhotellesmouettes {
+  margin-top: 30px;
+  margin-left: 30px;
+  border-radius: 15px;
+  border-style: solid;
+  max-width: 158px;
+  height: 130px;
+  border-color: #ffffff;
+  border-width: 4px;
+  border-bottom-width: 110px;
+}
+
+.card-name3 {
+  margin-top: -10px;
+  margin-left: 10px;
+  font-size: 10px;
+  color: black;
+}
+.prix3 {
+  margin-left: 10px;
+  margin-top: -5px;
+  font-size: 10px;
+  color: black;
+}
+.prix3 h1 {
+  margin-left: 75px;
+  color: black;
+  margin-top: -22px;
+  font-size: 10px;
+}
+
+/* Card hotel de la mer */
+
+.cardhoteldelamer {
+  margin-top: 30px;
+  margin-left: 0px;
+  border-radius: 15px;
+  border-style: solid;
+  max-width: 158px;
+  height: 130px;
+  border-color: #ffffff;
+  border-width: 4px;
+  border-bottom-width: 110px;
+}
+
+.card-name4 {
+  margin-top: -10px;
+  margin-left: 10px;
+  font-size: 10px;
+  color: black;
+}
+.prix4 {
+  margin-left: 10px;
+  margin-top: -5px;
+  font-size: 10px;
+  color: black;
+}
+.prix4 h1 {
+  margin-left: 75px;
+  color: black;
+  margin-top: -22px;
+  font-size: 10px;
+}
+
+/* Card auberge le panier */
+
+.cardaubergelepanier {
+  margin-top: 30px;
+  margin-left: 30px;
+  border-radius: 15px;
+  border-style: solid;
+  max-width: 158px;
+  height: 130px;
+  border-color: #ffffff;
+  border-width: 4px;
+  border-bottom-width: 110px;
+}
+
+.card-name5 {
+  margin-top: -10px;
+  margin-left: 10px;
+  font-size: 10px;
+  color: black;
+}
+.prix5 {
+  margin-left: 10px;
+  margin-top: -5px;
+  font-size: 10px;
+  color: black;
+}
+.prix5 h1 {
+  margin-left: 75px;
+  color: black;
+  margin-top: -22px;
+  font-size: 10px;
+}
+
+/* Card hotel lchez amina */
+
+.cardhotelchezamina {
+  margin-top: 30px;
+  margin-left: 30px;
+  border-radius: 15px;
+  border-style: solid;
+  max-width: 158px;
+  height: 130px;
+  border-color: #ffffff;
+  border-width: 4px;
+  border-bottom-width: 110px;
+}
+
+.card-name6 {
+  margin-top: -10px;
+  margin-left: 10px;
+  font-size: 10px;
+  color: black;
+}
+.prix6 {
+  margin-left: 10px;
+  margin-top: -5px;
+  font-size: 10px;
+  color: black;
+}
+.prix6 h1 {
+  margin-left: 75px;
+  color: black;
+  margin-top: -22px;
+  font-size: 10px;
+}
+
+/* ADAPTATION ECRAN */
+
+@media only screen and (min-width: 992px) {
+  .search-btn {
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 991px) {
+  .Rechercher {
+    display: none;
+  }
+  .search-box {
+    width: 60px;
+  }
+}
+@media only screen and (max-width: 768px) {
+  .mainlogo {
+    display: flex;
+    justify-content: center;
+    margin-top: -30px;
+    margin-left: 50px;
+  }
+  .navmenu :hover {
+    border-style: solid;
+    border-bottom-color: #0065fc;
+    border-width: 3px;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    color: #0065fc;
+  }
+
+  .navmenu {
+    display: flex;
+    justify-content: space-around;
+    text-decoration: none;
+    margin-top: -30px;
+  }
+
+  .navmenu #heb {
+    display: flex;
+    justify-content: center;
+    margin-left: -63px;
+    height: 50px;
+    width: 400px;
+  }
+
+  .navmenu #act {
+    margin-right: 0px;
+    display: flex;
+    justify-content: center;
+    height: 50px;
+    width: 400px;
+  }
+}
+
+@media only screen and (max-width: 859px) {
+  .container {
+    display: flex;
+  }
+}
+
+@media only screen and (max-width: 497px) {
+  .btnfiltre {
+    margin-top: 25px;
+    margin-left: 0px;
+  }
+  .container {
+    display: flex;
+  }
+}
+
+/*# sourceMappingURL=Style.css.map */
