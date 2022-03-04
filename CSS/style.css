@@ -114,7 +114,7 @@ body {
   position: relative;
   border-style: solid;
   color: white;
-  border-color: #0065fc;
+  border: none;
   background-color: #0065fc;
   font-family: "Roboto", sans-serif;
   left: 300px;
@@ -306,12 +306,7 @@ a:link {
   font-size: 10px;
   color: black;
 }
-.prix1 h1 {
-  margin-left: 75px;
-  color: black;
-  margin-top: -22px;
-  font-size: 10px;
-}
+
 /* Card hotel du port */
 .cardhotelduport {
   margin-top: 30px;
@@ -336,12 +331,6 @@ a:link {
   margin-top: -5px;
   font-size: 10px;
   color: black;
-}
-.prix2 h1 {
-  margin-left: 75px;
-  color: black;
-  margin-top: -22px;
-  font-size: 10px;
 }
 
 /* Card hotel les mouettes */
@@ -370,12 +359,6 @@ a:link {
   font-size: 10px;
   color: black;
 }
-.prix3 h1 {
-  margin-left: 75px;
-  color: black;
-  margin-top: -22px;
-  font-size: 10px;
-}
 
 /* Card hotel de la mer */
 
@@ -402,12 +385,6 @@ a:link {
   margin-top: -5px;
   font-size: 10px;
   color: black;
-}
-.prix4 h1 {
-  margin-left: 75px;
-  color: black;
-  margin-top: -22px;
-  font-size: 10px;
 }
 
 /* Card auberge le panier */
@@ -436,12 +413,6 @@ a:link {
   font-size: 10px;
   color: black;
 }
-.prix5 h1 {
-  margin-left: 75px;
-  color: black;
-  margin-top: -22px;
-  font-size: 10px;
-}
 
 /* Card hotel lchez amina */
 
@@ -468,12 +439,6 @@ a:link {
   margin-top: -5px;
   font-size: 10px;
   color: black;
-}
-.prix6 h1 {
-  margin-left: 75px;
-  color: black;
-  margin-top: -22px;
-  font-size: 10px;
 }
 
 /* ADAPTATION ECRAN */
