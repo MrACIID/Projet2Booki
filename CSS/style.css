@@ -5,17 +5,19 @@
 }
 
 body {
-  margin: 30px;
+  margin: auto;
+  margin-top: 30px;
   font-family: "Raleway", sans-serif;
+  max-width: 1440px;
 }
 
 /* HEADER */
 
 .navmenu {
   display: flex;
-  justify-content: flex-end;
+  justify-content: row;
   margin-top: -125px;
-  margin-right: -30px;
+  margin-left: 70%;
 }
 
 .navmenu #heb {
@@ -269,14 +271,14 @@ body {
 
 /* CARDS HERBEGEMENT A MARSEILLE */
 
-#Titrecarte {
+#titrecarte {
   font-size: 1.3rem;
   position: relative;
-  top: 55px;
+  top: 40px;
   left: 30px;
 }
 
-#Afficherplus {
+#afficherplus {
   font-size: 1rem;
   position: relative;
   top: 525px;
@@ -295,8 +297,8 @@ body {
   display: flex;
   flex-wrap: wrap;
   flex-direction: row;
-  flex: 1;
-  width: 900px;
+  gap: 20px;
+  width: 62%;
   background-color: #efefef;
   padding-bottom: 100px;
   padding-top: 50px;
@@ -310,7 +312,7 @@ a:link {
   text-decoration: none;
 }
 .card-image img {
-  width: 250px;
+  width: 100%;
   height: 130px;
   border-radius: 20px;
   border-bottom-left-radius: 0px;
@@ -324,11 +326,9 @@ a:link {
 /* Card cannebiere */
 
 .cardcannebiere {
-  margin-top: 30px;
-  margin-left: 0px;
   border-radius: 20px;
   border-style: solid;
-  width: 258px;
+  width: 30%;
   height: 130px;
   border-color: #ffffff;
   border-width: 4px;
@@ -338,27 +338,26 @@ a:link {
 .card-name1 {
   margin-top: -45px;
   margin-left: 10px;
-  font-size: 12px;
+  font-size: 0.7em;
   color: black;
 }
 .prix1 {
   margin-left: 10px;
   margin-top: -5px;
-  font-size: 12px;
+  font-size: 0.7em;
   color: black;
 }
 
 .note1 {
   margin-left: 10px;
+  font-size: 0.7em;
 }
 
 /* Card hotel du port */
 .cardhotelduport {
-  margin-top: 30px;
-  margin-left: 30px;
   border-radius: 20px;
   border-style: solid;
-  width: 258px;
+  width: 30%;
   height: 130px;
   border-color: #ffffff;
   border-width: 4px;
@@ -369,28 +368,27 @@ a:link {
 .card-name2 {
   margin-top: -45px;
   margin-left: 10px;
-  font-size: 12px;
+  font-size: 0.7em;
   color: black;
 }
 .prix2 {
   margin-left: 10px;
   margin-top: -5px;
-  font-size: 12px;
+  font-size: 0.7em;
   color: black;
 }
 
 .note2 {
   margin-left: 10px;
+  font-size: 0.7em;
 }
 
 /* Card hotel les mouettes */
 
 .cardhotellesmouettes {
-  margin-top: 30px;
-  margin-left: 30px;
   border-radius: 20px;
   border-style: solid;
-  width: 258px;
+  width: 30%;
   height: 130px;
   border-color: #ffffff;
   border-width: 4px;
@@ -401,28 +399,27 @@ a:link {
 .card-name3 {
   margin-top: -45px;
   margin-left: 10px;
-  font-size: 12px;
+  font-size: 0.7em;
   color: black;
 }
 .prix3 {
   margin-left: 10px;
   margin-top: -5px;
-  font-size: 12px;
+  font-size: 0.7em;
   color: black;
 }
 
 .note3 {
   margin-left: 10px;
+  font-size: 0.7em;
 }
 
 /* Card hotel de la mer */
 
 .cardhoteldelamer {
-  margin-top: 30px;
-  margin-left: 0px;
   border-radius: 20px;
   border-style: solid;
-  width: 258px;
+  width: 30%;
   height: 130px;
   border-color: #ffffff;
   border-width: 4px;
@@ -439,22 +436,21 @@ a:link {
 .prix4 {
   margin-left: 10px;
   margin-top: -5px;
-  font-size: 12px;
+  font-size: 0.7em;
   color: black;
 }
 
 .note4 {
   margin-left: 10px;
+  font-size: 0.7em;
 }
 
 /* Card auberge le panier */
 
 .cardaubergelepanier {
-  margin-top: 30px;
-  margin-left: 30px;
   border-radius: 20px;
   border-style: solid;
-  width: 258px;
+  width: 30%;
   height: 130px;
   border-color: #ffffff;
   border-width: 4px;
@@ -465,28 +461,27 @@ a:link {
 .card-name5 {
   margin-top: -45px;
   margin-left: 10px;
-  font-size: 12px;
+  font-size: 0.7em;
   color: black;
 }
 .prix5 {
   margin-left: 10px;
   margin-top: -5px;
-  font-size: 12px;
+  font-size: 0.7em;
   color: black;
 }
 
 .note5 {
   margin-left: 10px;
+  font-size: 0.7em;
 }
 
 /* Card hotel lchez amina */
 
 .cardhotelchezamina {
-  margin-top: 30px;
-  margin-left: 30px;
   border-radius: 20px;
   border-style: solid;
-  width: 258px;
+  width: 30%;
   height: 130px;
   border-color: #ffffff;
   border-width: 4px;
@@ -497,70 +492,74 @@ a:link {
 .card-name6 {
   margin-top: -45px;
   margin-left: 10px;
-  font-size: 12px;
+  font-size: 0.7em;
   color: black;
 }
 .prix6 {
   margin-left: 10px;
   margin-top: -5px;
-  font-size: 12px;
+  font-size: 0.7em;
   color: black;
 }
 
 .note6 {
   margin-left: 10px;
+  font-size: 0.7em;
 }
 
 /* CARDS LES PLUS POPULAIRES */
 
-#Titrecartelespluspopulaires {
+#titrecartelespluspopulaires {
+  display: flex;
   position: relative;
-  left: 965px;
-  top: -550px;
+  left: 5px;
+  top: 10px;
   font-size: 1.3rem;
-  width: 410px;
+  max-width: 100%;
 }
 
 .fa-solid.fa-arrow-trend-up {
-  margin-left: 180px;
   border-style: solid;
   border-top: none;
   border-right: none;
   border-width: 3px;
-  padding: 3px;
+  padding: 1%;
+  height: 30px;
+  margin-left: 35%;
 }
 
 .populaires {
-  margin-top: -608px;
-  margin-left: 930px;
+  margin-top: -579px;
+  margin-left: 65%;
   display: flex;
   flex-direction: column;
-  flex-wrap: wrap;
   gap: 30px;
   background-color: #efefef;
   border-radius: 15px;
-  padding-bottom: 30px;
-  padding-top: 75px;
+  padding-bottom: 10px;
+  padding-top: 10px;
   padding-left: 30px;
   padding-right: 30px;
-  width: 460px;
+  width: 32%;
 }
 
 .card-image-pop img {
   text-decoration: none;
   margin: 0px;
-  width: 140px;
-  height: 130px;
+  width: 40%;
+  height: 140px;
   border-top-left-radius: 10px;
   border-bottom-left-radius: 10px;
   object-fit: cover;
 }
 
 .card-body-pop {
+  font-size: 70%;
   margin-top: -150px;
-  margin-left: 160px;
-  margin-bottom: 45px;
+  margin-left: 42%;
+  margin-bottom: 10px;
   margin-right: 30px;
+  width: auto;
   color: black;
 }
 
@@ -568,9 +567,8 @@ a:link {
   border-style: solid;
   border-radius: 15px;
   border-width: 4px;
+  height: 148px;
   border-color: white;
-  height: 138px;
-  width: 400px;
   background-color: white;
   box-shadow: 1px 1px 10px rgb(214, 214, 214);
 }
@@ -580,8 +578,7 @@ a:link {
   border-radius: 15px;
   border-width: 4px;
   border-color: white;
-  width: 400px;
-  height: 138px;
+  height: 148px;
   background-color: white;
   box-shadow: 1px 1px 10px rgb(214, 214, 214);
 }
@@ -591,45 +588,46 @@ a:link {
   border-radius: 15px;
   border-width: 4px;
   border-color: white;
-  width: 400px;
-  height: 138px;
+  height: 148px;
   background-color: white;
   box-shadow: 1px 1px 10px rgb(214, 214, 214);
 }
 
 /* Activités a Marseille */
-.activitéamarseille {
+.activiteamarseille {
   position: relative;
-  top: 50px;
+  top: 30px;
   font-size: 1.3rem;
 }
 
-.containeractivité {
+.containeractivite {
   display: flex;
-  gap: 210px;
-}
-
-.containeractivité1 {
-  display: flex;
-  justify-content: row;
-  gap: 30px;
+  justify-content: center;
+  gap: 10px;
   margin-top: 30px;
 }
 
-.containeractivité2 {
+.containeractivite1 {
   display: flex;
-  justify-content: row;
-  gap: 30px;
-  margin-top: 30px;
+  gap: 7%;
+  width: 100%;
+  height: 100%;
+}
+
+.containeractivite2 {
+  display: flex;
+  gap: 7%;
+  width: 100%;
+  height: 100%;
 }
 
 /* Vieux port*/
 
-.vieuxportimg img {
+.solo img {
   margin-top: 30px;
   object-fit: cover;
-  width: 300px;
-  height: 450px;
+  width: 300%;
+  height: 72%;
   border-style: solid;
   border-radius: 30px;
   border-color: white;
@@ -640,19 +638,16 @@ a:link {
   box-shadow: 1px 1px 10px rgb(214, 214, 214);
 }
 
-.cardnameact {
-  position: relative;
-  color: black;
-  width: 300px;
-  margin-left: 30px;
-  top: -40px;
+.containeractivite article {
+  width: 100%;
+  height: 100%;
 }
-/* Fort de pomègues */
-.fort img {
+
+.solocalanque img {
   margin-top: 30px;
   object-fit: cover;
-  width: 350px;
-  height: 245px;
+  width: 400%;
+  height: 76%;
   border-style: solid;
   border-radius: 30px;
   border-color: white;
@@ -662,21 +657,53 @@ a:link {
   border-bottom-width: 60px;
   box-shadow: 1px 1px 10px rgb(214, 214, 214);
 }
-.cardnameact2 {
-  position: relative;
+
+/* Fort de pomègues */
+
+.double1 img {
+  margin-top: 30px;
+  margin-left: 46%;
+  object-fit: cover;
+  width: 80%;
+  height: 42%;
+  border-style: solid;
+  border-radius: 30px;
+  border-color: white;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  border-bottom-width: 60px;
+  box-shadow: 1px 1px 10px rgb(214, 214, 214);
+}
+.double1 h4 {
+  display: none;
+  top: 50px;
   color: black;
-  width: 300px;
-  margin-left: -320px;
-  top: -25px;
+}
+.double1notredame img {
+  margin-top: 30px;
+  margin-left: 300%;
+  object-fit: cover;
+  width: 500%;
+  height: 32%;
+  border-style: solid;
+  border-radius: 30px;
+  border-color: white;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  border-bottom-width: 60px;
+  box-shadow: 1px 1px 10px rgb(214, 214, 214);
 }
 
 /* Iles de frioul */
 
-.frioul img {
-  margin-top: 30px;
+.double2 img {
+  margin-top: 310px;
+  margin-left: -290%;
   object-fit: cover;
-  width: 350px;
-  height: 170px;
+  width: 360%;
+  height: 25%;
   border-style: solid;
   border-radius: 30px;
   border-color: white;
@@ -687,19 +714,28 @@ a:link {
   box-shadow: 1px 1px 10px rgb(214, 214, 214);
 }
 
-.cardnameact3 {
-  position: relative;
-  color: black;
-  width: 300px;
-  margin-left: -320px;
-  top: -25px;
+.double2longchamp img {
+  margin-top: 235px;
+  margin-left: 18%;
+  object-fit: cover;
+  width: 75%;
+  height: 40%;
+  border-style: solid;
+  border-radius: 30px;
+  border-color: white;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  border-bottom-width: 60px;
+  box-shadow: 1px 1px 10px rgb(214, 214, 214);
 }
 
 /* FOOTER */
 
 .footer {
   display: flex;
-  gap: 300px;
+  gap: 25%;
+  max-width: 100%;
   margin-top: 30px;
   margin-bottom: -30px;
   margin-left: -30px;
@@ -709,6 +745,12 @@ a:link {
 }
 
 /* ADAPTATION ECRAN */
+
+@media only screen and (max-width: 1453px) {
+  body {
+    margin: 30px;
+  }
+}
 
 @media only screen and (min-width: 992px) {
   .search-btn {
@@ -725,6 +767,8 @@ a:link {
   }
 }
 @media only screen and (max-width: 768px) {
+  /* NAVMENU */
+
   .mainlogo {
     display: flex;
     justify-content: center;
@@ -746,6 +790,7 @@ a:link {
     justify-content: space-around;
     text-decoration: none;
     margin-top: -30px;
+    margin-left: 30px;
   }
 
   .navmenu #heb {
@@ -762,6 +807,163 @@ a:link {
     justify-content: center;
     height: 50px;
     width: 400px;
+  }
+
+  /* CARDS LES PLUS POPULAIRE*/
+  #Main {
+    display: flex;
+    flex-direction: column;
+  }
+
+  #titrecartelespluspopulaires {
+    left: 30px;
+  }
+
+  .populaires {
+    order: 1;
+    margin: 0px;
+    width: 690px;
+  }
+
+  .card-image-pop img {
+    text-decoration: none;
+    margin: 0px;
+    width: 140px;
+    height: 150px;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    object-fit: cover;
+  }
+
+  .cardhotellesoleildumatin {
+    width: 630px;
+    height: 160px;
+  }
+  .cardaucoeurdeleau {
+    width: 630px;
+    height: 160px;
+  }
+
+  .cardhoteltoutbleu {
+    width: 630px;
+    height: 160px;
+  }
+
+  /* CARDS HEBERGEMENT*/
+
+  #titrecarte {
+    top: 780px;
+  }
+
+  #afficherplus {
+    font-size: 1rem;
+    position: relative;
+    top: 2700px;
+    left: 40px;
+  }
+
+  .hebergement {
+    display: flex;
+    order: 2;
+    flex-direction: column;
+    width: 710px;
+    background: none;
+    padding-bottom: 100px;
+    padding-top: 50px;
+    padding-left: 30px;
+    padding-right: 0px;
+    border-radius: 15px;
+    margin: 0px;
+  }
+
+  .card-image img {
+    width: 650px;
+    height: 230px;
+  }
+  .cardcannebiere {
+    width: 660px;
+    border-bottom-width: 280px;
+  }
+
+  .cardhotelduport {
+    width: 660px;
+    border-bottom-width: 280px;
+    margin-left: 0px;
+  }
+
+  .cardhotellesmouettes {
+    width: 660px;
+    border-bottom-width: 280px;
+    margin-left: 0px;
+  }
+
+  .cardhoteldelamer {
+    width: 660px;
+    border-bottom-width: 280px;
+  }
+
+  .cardaubergelepanier {
+    width: 660px;
+    border-bottom-width: 280px;
+    margin-left: 0px;
+  }
+
+  .cardhotelchezamina {
+    width: 660px;
+    border-bottom-width: 280px;
+    margin-left: 0px;
+  }
+
+  /* ACTIVITE MARSEILLE*/
+  .activiteamarseille {
+    top: 2700px;
+  }
+
+  .containeractivite {
+    flex-direction: column;
+    gap: 0px;
+    order: 3;
+  }
+
+  .containeractivite1 {
+    flex-direction: column;
+    gap: 0px;
+  }
+
+  .containeractivite2 {
+    flex-direction: column;
+    gap: 0px;
+  }
+
+  .vieuxportimg img {
+    width: 685px;
+    height: 230px;
+  }
+
+  .fort img {
+    width: 685px;
+    height: 230px;
+  }
+
+  .frioul img {
+    width: 685px;
+    height: 230px;
+  }
+
+  .cardnameact2 {
+    margin-left: 30px;
+    top: -35px;
+  }
+
+  .cardnameact3 {
+    margin-left: 30px;
+    top: -35px;
+  }
+
+  .footer {
+    flex-direction: column;
+    gap: 30px;
+    width: 708px;
   }
 }
 
