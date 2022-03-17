@@ -602,52 +602,52 @@ a:link {
 
 .containeractivite {
   display: flex;
-  justify-content: center;
-  gap: 10px;
-  margin-top: 30px;
+}
+
+.containeractivite h4 {
+  margin-top: -40px;
+  margin-left: 30px;
+  color: black;
 }
 
 .containeractivite1 {
   display: flex;
-  gap: 7%;
-  width: 100%;
-  height: 100%;
+  gap: 5%;
+  width: 200%;
+  height: 500px;
 }
 
 .containeractivite2 {
   display: flex;
-  gap: 7%;
-  width: 100%;
-  height: 100%;
+  gap: 5%;
+  width: 200%;
+  height: 500px;
 }
 
-/* Vieux port*/
+/* CARD ACTIVITE INITIAL*/
+
+.solo {
+  width: 40%;
+  height: 85%;
+}
+
+.double1 {
+  width: 45%;
+  height: 55%;
+}
+
+.double2 {
+  margin-top: 305px;
+  width: 45%;
+  height: 30%;
+  margin-left: -50%;
+}
 
 .solo img {
   margin-top: 30px;
   object-fit: cover;
-  width: 300%;
-  height: 72%;
-  border-style: solid;
-  border-radius: 30px;
-  border-color: white;
-  border-top: none;
-  border-left: none;
-  border-right: none;
-  border-bottom-width: 60px;
-  box-shadow: 1px 1px 10px rgb(214, 214, 214);
-}
-
-.containeractivite article {
   width: 100%;
   height: 100%;
-}
-
-.solocalanque img {
-  margin-top: 30px;
-  object-fit: cover;
-  width: 400%;
-  height: 76%;
   border-style: solid;
   border-radius: 30px;
   border-color: white;
@@ -657,15 +657,12 @@ a:link {
   border-bottom-width: 60px;
   box-shadow: 1px 1px 10px rgb(214, 214, 214);
 }
-
-/* Fort de pomègues */
 
 .double1 img {
   margin-top: 30px;
-  margin-left: 46%;
   object-fit: cover;
-  width: 80%;
-  height: 42%;
+  width: 100%;
+  height: 90%;
   border-style: solid;
   border-radius: 30px;
   border-color: white;
@@ -675,35 +672,58 @@ a:link {
   border-bottom-width: 60px;
   box-shadow: 1px 1px 10px rgb(214, 214, 214);
 }
-.double1 h4 {
-  display: none;
-  top: 50px;
-  color: black;
-}
-.double1notredame img {
-  margin-top: 30px;
-  margin-left: 300%;
-  object-fit: cover;
-  width: 500%;
-  height: 32%;
-  border-style: solid;
-  border-radius: 30px;
-  border-color: white;
-  border-top: none;
-  border-left: none;
-  border-right: none;
-  border-bottom-width: 60px;
-  box-shadow: 1px 1px 10px rgb(214, 214, 214);
-}
-
-/* Iles de frioul */
 
 .double2 img {
-  margin-top: 310px;
-  margin-left: -290%;
   object-fit: cover;
-  width: 360%;
-  height: 25%;
+  width: 100%;
+  height: 100%;
+  border-style: solid;
+  border-radius: 30px;
+  border-color: white;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  border-bottom-width: 60px;
+  box-shadow: 1px 1px 10px rgb(214, 214, 214);
+}
+
+/* CARDS JUMELLE*/
+
+.solocalanque {
+  width: 40%;
+  height: 85%;
+}
+
+.double1notredame {
+  width: 45%;
+  height: 55%;
+}
+.double2longchamp {
+  margin-top: 305px;
+  width: 45%;
+  height: 30%;
+  margin-left: -50%;
+}
+.solocalanque img {
+  margin-top: 30px;
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+  border-style: solid;
+  border-radius: 30px;
+  border-color: white;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  border-bottom-width: 60px;
+  box-shadow: 1px 1px 10px rgb(214, 214, 214);
+}
+
+.double1notredame img {
+  margin-top: 30px;
+  object-fit: cover;
+  width: 100%;
+  height: 90%;
   border-style: solid;
   border-radius: 30px;
   border-color: white;
@@ -715,11 +735,9 @@ a:link {
 }
 
 .double2longchamp img {
-  margin-top: 235px;
-  margin-left: 18%;
   object-fit: cover;
-  width: 75%;
-  height: 40%;
+  width: 100%;
+  height: 100%;
   border-style: solid;
   border-radius: 30px;
   border-color: white;
@@ -821,44 +839,54 @@ a:link {
 
   .populaires {
     order: 1;
-    margin: 0px;
-    width: 690px;
+    margin: 0%;
+    margin-left: -30px;
+    margin-right: -30px;
+    width: 110%;
   }
 
   .card-image-pop img {
     text-decoration: none;
     margin: 0px;
-    width: 140px;
+    width: 30%;
     height: 150px;
     border-top-left-radius: 10px;
     border-bottom-left-radius: 10px;
     object-fit: cover;
   }
-
+  .card-body-pop {
+    font-size: 85%;
+    margin-top: -170px;
+    margin-left: 42%;
+    margin-bottom: 10px;
+    margin-right: 30px;
+    width: auto;
+    color: black;
+  }
   .cardhotellesoleildumatin {
-    width: 630px;
+    width: 100%;
     height: 160px;
   }
   .cardaucoeurdeleau {
-    width: 630px;
+    width: 100%;
     height: 160px;
   }
 
   .cardhoteltoutbleu {
-    width: 630px;
+    width: 100%;
     height: 160px;
   }
 
   /* CARDS HEBERGEMENT*/
 
   #titrecarte {
-    top: 780px;
+    top: 710px;
   }
 
   #afficherplus {
     font-size: 1rem;
     position: relative;
-    top: 2700px;
+    top: 2530px;
     left: 40px;
   }
 
@@ -866,104 +894,111 @@ a:link {
     display: flex;
     order: 2;
     flex-direction: column;
-    width: 710px;
+    width: 95%;
     background: none;
-    padding-bottom: 100px;
-    padding-top: 50px;
-    padding-left: 30px;
-    padding-right: 0px;
-    border-radius: 15px;
+    margin-left: -60px;
     margin: 0px;
   }
 
   .card-image img {
-    width: 650px;
+    width: 100%;
     height: 230px;
   }
   .cardcannebiere {
-    width: 660px;
+    width: 100%;
     border-bottom-width: 280px;
   }
 
   .cardhotelduport {
-    width: 660px;
+    width: 100%;
     border-bottom-width: 280px;
     margin-left: 0px;
   }
 
   .cardhotellesmouettes {
-    width: 660px;
+    width: 100%;
     border-bottom-width: 280px;
     margin-left: 0px;
   }
 
   .cardhoteldelamer {
-    width: 660px;
+    width: 100%;
     border-bottom-width: 280px;
   }
 
   .cardaubergelepanier {
-    width: 660px;
+    width: 100%;
     border-bottom-width: 280px;
     margin-left: 0px;
   }
 
   .cardhotelchezamina {
-    width: 660px;
+    width: 100%;
     border-bottom-width: 280px;
     margin-left: 0px;
   }
 
   /* ACTIVITE MARSEILLE*/
   .activiteamarseille {
-    top: 2700px;
+    top: 2550px;
   }
 
   .containeractivite {
     flex-direction: column;
-    gap: 0px;
     order: 3;
   }
 
   .containeractivite1 {
     flex-direction: column;
-    gap: 0px;
+    gap: 7%;
+    width: 100%;
   }
 
   .containeractivite2 {
     flex-direction: column;
-    gap: 0px;
+    margin-top: 38%;
+    width: 100%;
+    gap: 7%;
+  }
+  .solo {
+    width: 100%;
+    height: 45%;
   }
 
-  .vieuxportimg img {
-    width: 685px;
-    height: 230px;
+  .double1 {
+    width: 100%;
+    height: 45%;
   }
 
-  .fort img {
-    width: 685px;
-    height: 230px;
+  .double2 {
+    margin-top: 5px;
+    width: 100%;
+    height: 45%;
+    margin-left: 0%;
   }
 
-  .frioul img {
-    width: 685px;
-    height: 230px;
+  .solocalanque {
+    width: 100%;
+    height: 45%;
   }
 
-  .cardnameact2 {
-    margin-left: 30px;
-    top: -35px;
+  .double1notredame {
+    width: 100%;
+    height: 45%;
   }
 
-  .cardnameact3 {
-    margin-left: 30px;
-    top: -35px;
+  .double2longchamp {
+    width: 100%;
+    height: 45%;
+    margin-top: 5px;
+    margin-left: 0%;
   }
 
   .footer {
     flex-direction: column;
     gap: 30px;
-    width: 708px;
+    margin-top: 300px;
+    width: 100%;
   }
 }
 
