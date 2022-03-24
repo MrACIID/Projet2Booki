@@ -1,6 +1,8 @@
 # Projet2Booki
 Projet 2 formation OC
 
+https://mraciid.github.io/Projet2Booki/
+
 Projet 2 de la formation web de d'Openclassrooms.
 Transformez une maquette en site web avec HTML & CSS.
 
@@ -12,3 +14,5 @@ Principaux champs de travail :
 - Filtres + animation sur "hover"
 - Cards avec FLEXBOX 
 - Adaptation au format tablette et mobile
+
+https://mraciid.github.io/Projet2Booki/
