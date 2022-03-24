@@ -15,8 +15,8 @@ body {
 
 .navmenu {
   display: flex;
+  justify-content: flex-end;
   margin-top: -125px;
-  margin-left: 70%;
 }
 
 .navmenu #heb {
