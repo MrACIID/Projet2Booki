@@ -82,7 +82,7 @@ body {
   border-color: #f2f2f2;
   font-family: "Raleway", sans-serif;
   font-weight: bold;
-  font-size: 1.3rem;
+  font-size: 1.1rem;
 }
 
 ::placeholder {
@@ -95,6 +95,7 @@ body {
   border: none;
   left: 13px;
   font-size: 18px;
+  background: none;
 }
 
 .search-btn {
@@ -103,7 +104,6 @@ body {
   height: 47px;
   border-radius: 15px 15px 15px 15px;
   cursor: pointer;
-  font-size: 16px;
   color: white;
   background-color: #0065fc;
   border-style: solid;
@@ -132,7 +132,7 @@ body {
 
 .btnfiltre {
   margin-top: -35px;
-  margin-left: 60px;
+  margin-left: 70px;
   display: flex;
   flex-wrap: wrap;
   flex-direction: row;
@@ -140,7 +140,7 @@ body {
 }
 .filtres p {
   font-weight: bold;
-  margin-top: 70px;
+  margin-top: 100px;
 }
 
 .btnfiltre :hover {
@@ -194,9 +194,10 @@ body {
   border-radius: 30px;
   color: #0065fc;
   background-color: #deebff;
-  border-width: 12px;
+  border-width: 5px;
   margin-top: -30px;
   width: 40px;
+  padding: 8px;
 }
 
 /* FILTRES ROMANTIQUE */
@@ -275,14 +276,15 @@ body {
 #titrecarte {
   font-size: 1.3rem;
   position: relative;
-  top: 100px;
+  top: 45px;
   left: 30px;
+  width: 30%;
 }
 
 #afficherplus {
   font-size: 1rem;
   position: relative;
-  top: 555px;
+  top: 490px;
   left: 30px;
 }
 
@@ -302,10 +304,10 @@ body {
   width: 62%;
   background-color: #efefef;
   padding-bottom: 120px;
-  padding-top: 70px;
+  padding-top: 80px;
   padding-left: 30px;
   padding-right: 0px;
-  margin-top: 0px;
+  margin-top: -60px;
   border-radius: 15px;
 }
 
@@ -514,9 +516,9 @@ a:link {
   display: flex;
   position: relative;
   left: 5px;
-  top: 10px;
   font-size: 1.3rem;
   max-width: 100%;
+  gap: 42%;
 }
 
 .fa-solid.fa-arrow-trend-up {
@@ -526,19 +528,18 @@ a:link {
   border-width: 3px;
   padding: 1%;
   height: 30px;
-  margin-left: 35%;
 }
 
 .populaires {
-  margin-top: -579px;
+  margin-top: -590px;
   margin-left: 65%;
   display: flex;
   flex-direction: column;
-  gap: 30px;
+  gap: 20px;
   background-color: #efefef;
   border-radius: 15px;
-  padding-bottom: 10px;
-  padding-top: 10px;
+  padding-bottom: 30px;
+  padding-top: 30px;
   padding-left: 30px;
   padding-right: 30px;
   width: 32%;
@@ -838,14 +839,17 @@ a:link {
 
   #titrecartelespluspopulaires {
     left: 30px;
+    gap: 62%;
   }
 
   .populaires {
     order: 1;
     margin: 0%;
     margin-left: -30px;
-    width: 114%;
+    margin-top: -150px;
+    width: 100vw;
     min-width: 320px;
+    border-radius: 0%;
   }
 
   .card-image-pop img {
@@ -883,15 +887,15 @@ a:link {
   /* CARDS HEBERGEMENT*/
 
   #titrecarte {
-    top: 815px;
-    margin-left: -10px;
+    top: 730px;
+    margin-left: 0px;
     width: 45%;
   }
 
   #afficherplus {
     font-size: 1rem;
     position: relative;
-    top: 2640px;
+    top: 2580px;
     left: 40px;
     width: 45%;
   }
@@ -900,10 +904,11 @@ a:link {
     display: flex;
     order: 2;
     flex-direction: column;
-    width: 95%;
+    width: 105%;
     background: none;
-    margin-left: -60px;
     margin: 0px;
+    margin-top: 60px;
+    margin-left: -30px;
   }
 
   .card-image img {
@@ -946,7 +951,7 @@ a:link {
 
   /* ACTIVITE MARSEILLE*/
   .activiteamarseille {
-    top: 2650px;
+    top: 2580px;
   }
 
   .containeractivite {
@@ -1005,7 +1010,7 @@ a:link {
     flex-direction: column;
     gap: 30px;
     margin-top: 500px;
-    width: 114%;
+    width: 100vw;
   }
 }
 
@@ -1032,6 +1037,12 @@ a:link {
 
   .search {
     width: 410%;
+  }
+}
+
+@media only screen and (max-width: 425px) {
+  #titrecartelespluspopulaires {
+    gap: 10%;
   }
 }
 
