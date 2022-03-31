@@ -17,18 +17,20 @@ body {
   display: flex;
   justify-content: flex-end;
   margin-top: -125px;
+  height: 100px;
 }
 
 .navmenu #heb {
   width: 200px;
   padding: 40px;
   text-decoration: none;
-}
+  }
 
 .navmenu #act {
   width: 155px;
   padding: 40px;
   text-decoration: none;
+  
 }
 
 .navmenu :hover {
@@ -49,8 +51,12 @@ body {
   flex-direction: column;
   margin-top: 30px;
 }
+#hero h1{
+ font-size: 1.5rem;
+}
 
 #hero h2 {
+  margin-top: 0px;
   font-weight: lighter;
   font-size: 1.2rem;
 }
@@ -404,7 +410,7 @@ a:link {
 
 .containeractivite h4 {
   margin-top: -40px;
-  margin-left: 30px;
+  margin-left: 20px;
   color: black;
 }
 
@@ -425,7 +431,7 @@ a:link {
 /* CARD ACTIVITE INITIAL*/
 
 .solo {
-  width: 40%;
+  width: 44%;
   height: 85%;
 }
 
@@ -488,18 +494,18 @@ a:link {
 /* CARDS JUMELLE*/
 
 .solocalanque {
-  width: 40%;
+  width: 44%;
   height: 85%;
 }
 
 .double1notredame {
   width: 45%;
-  height: 55%;
+  height: 40%;
 }
 .double2longchamp {
-  margin-top: 305px;
+  margin-top: 230px;
   width: 45%;
-  height: 30%;
+  height: 45%;
   margin-left: -50%;
 }
 .solocalanque img {
@@ -559,6 +565,10 @@ a:link {
   padding: 30px;
   background-color: #efefef;
   font-size: 1.3rem;
+}
+.footer p {
+  font-weight: lighter;
+  font-size: 1REM;
 }
 
 /* ADAPTATION ECRAN */
@@ -634,10 +644,10 @@ a:link {
   }
 
   #titrecartelespluspopulaires {
-    left: 30px;
     gap: 62%;
   }
 
+ 
   .populaires {
     order: 1;
     margin: 0%;
@@ -676,15 +686,15 @@ a:link {
 
   #titrecarte {
     top: 730px;
-    margin-left: 0px;
-    width: 45%;
+    margin-left: -30px;
+    width: 90%;
   }
 
   #afficherplus {
     font-size: 1rem;
     position: relative;
     top: 2580px;
-    left: 40px;
+    left: 0px;
     width: 45%;
   }
 
@@ -801,7 +811,15 @@ a:link {
 
 @media only screen and (max-width: 425px) {
   #titrecartelespluspopulaires {
-    gap: 10%;
+    gap: 30%;
+  }
+  #hero h1 {
+    font-size: 1.5rem;
+  }
+  
+  #hero h2 {
+
+    font-size: 1rem;
   }
 }
 
