@@ -611,6 +611,14 @@ a:link {
     border-right: none;
     color: #0065fc;
   }
+  .navmenu :not(:hover) {
+    border-style: solid;
+    border-bottom-color: #dfdfdf;
+    border-width: 3px;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+  }
 
   .navmenu {
     display: flex;
